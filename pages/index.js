@@ -42,10 +42,10 @@ export default function Home() {
 
               <div className=" absolute right-0 ">
                 <div className="font-bold md:px-8 px-4 text-sm md:text-base md:py-6 py-3 bg-yellow-600 text-white md:my-6 my-3 rounded-l-lg">
-                  Organisasi
+                  Pengalaman Kerja
                 </div>
                 <div className="font-bold md:px-8 px-4 text-sm md:text-base md:py-6 py-3 bg-yellow-600 text-white md:my-6 my-3 rounded-l-lg">
-                  Organisasi
+                  Pendidikan
                 </div>
                 <div className="font-bold md:px-8 px-4 text-sm md:text-base md:py-6 py-3 bg-yellow-600 text-white md:my-6 my-3 rounded-l-lg">
                   Organisasi
