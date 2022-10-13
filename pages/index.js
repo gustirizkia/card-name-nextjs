@@ -2,10 +2,28 @@ import Head from "next/head";
 import Image from "next/image";
 import gusti from "../public/Gusti.png";
 import Link from "next/link";
+import banner from "../public/banner.png";
 
 export default function Home() {
   return (
     <>
+      <Head>
+        <meta
+          property="og:title"
+          content={"Gusti Maulana Rizkia - Software Engineer"}
+        />
+        <title>Gusti Maulana Rizkia - Software Engineer</title>
+        <meta property="og:image" content={banner.src} />
+        <meta
+          property="og:description"
+          content="Integritas,
+                    Mentalitas, Kualitas, Kapabilitas & Kapasitas"
+        />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content={"https://gusti-rizkia.vercel.app/"} />
+        <meta property="og:image:width" content="300" />
+        <meta property="og:image:height" content="300" />
+      </Head>
       <div className="h-screen md:p-8 bg-gradient-to-tr from-slate-500 to-sky-900">
         <div className="bg-gray-800 flex items-end justify-center  md:rounded-2xl relative">
           <div className="pt-10">
