@@ -25,7 +25,7 @@ export default function Home() {
         <meta property="og:image:height" content="300" />
       </Head>
       <div className="h-screen md:p-8 bg-gradient-to-tr from-slate-500 to-sky-900">
-        <div className="bg-gray-800 flex items-end justify-center  md:rounded-2xl relative">
+        <div className="bg-gray-800 flex items-end justify-center min-h-screen md:min-h-fit  md:rounded-2xl relative">
           <div className="pt-10">
             <div className="flex justify-center items-center bottom-0">
               <div className="w-2/5 hidden md:block">
